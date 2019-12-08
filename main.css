@@ -1,0 +1,135 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#page-body{
+  margin: auto;
+  color: #004b66;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.75em;
+  font-style: italic;
+  text-transform: none;
+}
+
+#layerOne{
+  margin: auto;
+}
+
+#hiddenPopup{
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2em;
+  border-radius: 50%;
+  border: 2px solid #e6e6e6;
+  /* background-color: grey; */
+  background-image: linear-gradient(to bottom right, #00ccff, #00a3cc);
+  animation: animate 1200ms ease-in-out;
+}
+
+@keyframes animate {
+  from{
+    transform: rotate(0deg);
+    transform: scale(0);
+  }
+
+  to{
+    transform: rotate(360deg);
+    transform: scale(1.0);
+  }
+}
+
+#hiddenPopup p{
+  height: auto;
+  margin: auto;
+  margin-top: 25%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+li{
+  width: 46%;
+  display: inline-block;
+  text-align: center;
+  margin: 1%;
+  margin-bottom: 5%;
+  border: 1px solid black;
+}
+
+ul li p{
+  /* height: 0px; */
+  padding: 15%;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  text-transform: uppercase;
+  transition: background-color 1s;
+}
+
+/* .green{
+  height: 100px;
+  background-color: #008b00;
+  transition: background-color 1s;
+} */
+
+/* red block */
+p{
+
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+
+  text-transform: uppercase;
+}
+
+.pickcolor, .picknumber{
+    color: #29293d;
+    text-align: center;
+    font-size: 2em;
+    margin: 1%;
+}
+
+
+.block{
+  background-color: #f10c11;
+  color: #660205;
+}
+
+/* yellow block */
+.block-2{
+  background-color: #ffff00;
+  color: #7f7f03;
+}
+
+/* green block */
+.block-3{
+  background-color: #08a217;
+  color: #04560c;
+}
+
+/* blue block */
+.block-4{
+  background-color: #2873da;
+  color: #0c4087;
+}
+
+.blue{
+  background-color: #0000ff;
+}
+/*
+.blue{
+  background-color: #0000ff;
+} */
+
+.hide{
+  display: none;
+}
